@@ -1,0 +1,1153 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedRedstoneLamp",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "RedRedstoneLampOn",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "RedRedstoneLampOnUpdateTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_redstone_lamp_on_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OrangeRedstoneLamp",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "OrangeRedstoneLampOn",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "OrangeRSL",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "YellowRedstoneLamp",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "YellowRedstoneLampOn",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "YellowRSL",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LimeRedstoneLamp",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_redstone_lamp",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "LimeRedstoneLampOn",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "LimeRSL",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GreenRedstoneLamp",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "GreenRedstoneLampOn",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "GreenRSL",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CyanRedstoneLamp",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_redstone_lamp",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "CyanRedstoneLampOn",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "CyanRSL",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LightBlueRedstoneLamp",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "LightBlueRedstoneLampOn",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "LightBlueRSL",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlueRedstoneLamp",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "BlueRedstoneLampOn",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "BlueRSL",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PurpleRedstoneLamp",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "PurpleRedstoneLampOn",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "PurpleRSL",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MagentaRedstoneLamp",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "MagentaRedstoneLampOn",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "MagentaRSL",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PinkRedstoneLamp",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "PinkRedstoneLampOn",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "PinkRSL",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BrownRedstoneLamp",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "BrownRedstoneLampOn",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "BrownRSL",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WhiteRedstoneLamp",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "WhiteRedstoneLampOn",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "WhiteRSL",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LightGrayRedstoneLamp",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "LightGrayRedstoneLampOn",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "LightGrayRSL",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GrayRedstoneLamp",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "GrayRedstoneLampOn",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "GrayRSL",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackRedstoneLamp",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_redstone_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "BlackRedstoneLampOn",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_redstone_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "BlackRSL",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SoulLamp",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "SoulLampOn",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "SoulRSL",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndLamp",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_lamp",
+      "path": "~/LampsOff"
+    },
+    {
+      "name": "EndLampOn",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_lamp_on",
+      "path": "~/LampsOn"
+    },
+    {
+      "name": "EndRSL",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_rsl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RedRL",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OrangeRL",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "YellowRL",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LimeRL",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreenRL",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CyanRL",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LightBlueRL",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlueRL",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PurpleRL",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MagentaRL",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PinkRL",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BrownRL",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteRL",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LightGrayRL",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrayRL",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlackRL",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GiveRedstoneLampRecipes",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_redstone_lamp_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndRL",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_rl",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SoulRL",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_rl",
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.glitchy_mc_redstone_lamps_plus.yellow_redstone_lamp": "Yellow Redstone Lamp",
+      "block.rslamps_plus.end_lamp": "End Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.purple_redstone_lamp_on": "Purple Redstone Lamp",
+      "block.rslamps_plus.orange_redstone_lamp": "Orange Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.soul_lamp_on": "Soul Lamp",
+      "block.rslamps_plus.black_redstone_lamp": "Black Redstone Lamp",
+      "block.rslamps_plus.magenta_redstone_lamp": "Magenta Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.light_gray_redstone_lamp": "Light Gray Redstone Lamp",
+      "block.rslamps_plus.gray_redstone_lamp": "Gray Redstone Lamp",
+      "block.rslamps_plus.purple_redstone_lamp": "Purple Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.green_redstone_lamp": "Green Redstone Lamp",
+      "block.rslamps_plus.gray_redstone_lamp_on": "Gray Redstone Lamp",
+      "block.rslamps_plus.brown_redstone_lamp_on": "Pink Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.brown_redstone_lamp": "Brown Redstone Lamp",
+      "block.rslamps_plus.cyan_redstone_lamp_on": "Cyan Redstone Lamp",
+      "block.rslamps_plus.light_gray_redstone_lamp_on": "Light Grey Redstone Lamp",
+      "block.rslamps_plus.white_redstone_lamp": "White Redstone Lamp",
+      "block.rslamps_plus.lime_redstone_lamp_on": "Lime Redstone Lamp",
+      "block.rslamps_plus.white_redstone_lamp_on": "White Redstone Lamp",
+      "block.rslamps_plus.light_gray_redstone_lamp": "Light Gray Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.end_lamp": "End Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.end_lamp_on": "End Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.green_redstone_lamp_on": "Green Redstone Lamp",
+      "block.rslamps_plus.light_blue_redstone_lamp_on": "Light Blue Redstone Lamp",
+      "block.rslamps_plus.yellow_redstone_lamp_on": "Yellow Redstone Lamp",
+      "block.rslamps_plus.lime_redstone_lamp": "Lime Redstone Lamp",
+      "block.rslamps_plus.brown_redstone_lamp": "Brown Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.blue_redstone_lamp_on": "Blue Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.gray_redstone_lamp": "Gray Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.red_redstone_lamp_on": "Red Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.lime_redstone_lamp": "Lime Redstone Lamp",
+      "block.rslamps_plus.orange_redstone_lamp_on": "Orange Redstone Lamp On",
+      "block.rslamps_plus.green_redstone_lamp": "Green Redstone Lamp",
+      "block.rslamps_plus.pink_redstone_lamp_on": "Pink Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.cyan_redstone_lamp_on": "Cyan Redstone Lamp",
+      "block.rslamps_plus.black_redstone_lamp_on": "Black Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.gray_redstone_lamp_on": "Gray Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.yellow_redstone_lamp_on": "Yellow Redstone Lamp",
+      "block.rslamps_plus.blue_redstone_lamp_on": "Blue Redstone Lamp",
+      "block.rslamps_plus.pink_redstone_lamp": "Pink Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.light_blue_redstone_lamp": "Light Blue Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.white_redstone_lamp_on": "White Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.cyan_redstone_lamp": "Cyan Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.pink_redstone_lamp_on": "Pink Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.lime_redstone_lamp_on": "Lime Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.blue_redstone_lamp": "Blue Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.white_redstone_lamp": "White Redstone Lamp",
+      "block.rslamps_plus.blue_redstone_lamp": "Blue Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.pink_redstone_lamp": "Pink Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.light_gray_redstone_lamp_on": "Light Grey Redstone Lamp",
+      "block.rslamps_plus.magenta_redstone_lamp_on": "Magenta Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.black_redstone_lamp_on": "Black Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.orange_redstone_lamp_on": "Orange Redstone Lamp On",
+      "block.glitchy_mc_redstone_lamps_plus.red_redstone_lamp": "Red Redstone Lamp",
+      "block.rslamps_plus.yellow_redstone_lamp": "Yellow Redstone Lamp",
+      "block.rslamps_plus.cyan_redstone_lamp": "Cyan Redstone Lamp",
+      "block.rslamps_plus.soul_lamp": "Soul Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.magenta_redstone_lamp_on": "Magenta Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.magenta_redstone_lamp": "Magenta Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.purple_redstone_lamp": "Purple Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.brown_redstone_lamp_on": "Pink Redstone Lamp",
+      "block.rslamps_plus.red_redstone_lamp_on": "Red Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.light_blue_redstone_lamp_on": "Light Blue Redstone Lamp",
+      "block.rslamps_plus.soul_lamp_on": "Soul Lamp",
+      "block.rslamps_plus.light_blue_redstone_lamp": "Light Blue Redstone Lamp",
+      "block.rslamps_plus.green_redstone_lamp_on": "Green Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.soul_lamp": "Soul Lamp",
+      "block.rslamps_plus.end_lamp_on": "End Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.orange_redstone_lamp": "Orange Redstone Lamp",
+      "block.glitchy_mc_redstone_lamps_plus.black_redstone_lamp": "Black Redstone Lamp",
+      "block.rslamps_plus.red_redstone_lamp": "Red Redstone Lamp",
+      "block.rslamps_plus.purple_redstone_lamp_on": "Purple Redstone Lamp"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "LampsOn",
+        "children": []
+      },
+      {
+        "name": "LampsOff",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rslamps_plus",
+    "modName": "Redstone Lamps Plus",
+    "version": "1.20.0",
+    "description": "Adds Redstone Lamp Variants To Minecraft",
+    "author": "_nystylecheesecake_",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/redstone-lamps-plus",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "glitchy_mc.redstone.lamps.plus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200231711
+}

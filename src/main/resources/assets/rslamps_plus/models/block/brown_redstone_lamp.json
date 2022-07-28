@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rslamps_plus:blocks/brown_redstone_lamp",
+    "particle": "rslamps_plus:blocks/brown_redstone_lamp"
+  }
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="rslamps_plus"
+version="1.20.0"
+displayName="Redstone Lamps Plus"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/redstone-lamps-plus"
+logoFile="logo.png"
+authors="_nystylecheesecake_"
+description='''
+Adds Redstone Lamp Variants To Minecraft
+'''
+
+[[dependencies.rslamps_plus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

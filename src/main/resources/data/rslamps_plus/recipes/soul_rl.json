@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "3": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "4": {
+      "item": "minecraft:soul_sand"
+    },
+    "5": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "7": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "item": "rslamps_plus:soul_lamp",
+    "count": 4
+  }
+}
